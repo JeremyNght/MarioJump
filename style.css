@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MarioFont', sans-serif;
+    letter-spacing: 1px;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'MarioFont';
+    src: url('font/SuperPlumberBrothers.ttf');
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#bg, #player, #enemy, #bullet, #green_platform,
+#green_platform, #blue_platform, #brown_platform, #white_platform, #champ_platform,
+#champ_bonus, #invisibility_bonus, #flower_bonus, #star_bonus {
+    display: none;
+}
